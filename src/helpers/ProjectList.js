@@ -7,7 +7,7 @@ export const ProjectList = [
         name: "Resume Builder",
         image: Proj1,
         skills: "React.js, Typescript, CSS, Express, Node.js, MongoDB, Mongoose, JWT, Bcrypt, OpenAI API",
-        githubURL: "https://github.com/micahbugbee/resume-builder-frontend"
+        githubURL: "https://github.com/micahbugbee/resume-builder"
     },
     {
         name: "Weather App",
@@ -22,9 +22,9 @@ export const ProjectList = [
         githubURL: ""
     },
     {
-        name: "Post Creator",
+        name: "Facebook Clone",
         image: Proj3,
         skills: "React.js, Typescript, CSS, Express, Node.js, MongoDB, Mongoose, JWT, Bcrypt",
-        githubURL: "https://github.com/micahbugbee/post-creator-frontend"
+        githubURL: "https://github.com/micahbugbee/facebook-clone"
     }
 ]
