@@ -5,8 +5,8 @@ import Projects from './pages/Projects';
 import ProjectDisplay from './pages/ProjectDisplay';
 import Experience from './pages/Experience';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
 import "./App.css"
+// import Footer from './components/Footer';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           <Route path="/project/:id" element={<ProjectDisplay />} />
           <Route path="/experience" element={<Experience />} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </BrowserRouter>
     </div>
   );

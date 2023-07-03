@@ -1,15 +1,16 @@
 .project {
     width: 100%;
-    height: calc(100vh - 100px);
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #2f3035;
 }
 
 .project h1 {
-    margin-top: 50px;
-    color: #2f3035;
+    margin-top: 100px;
+    color: #9ea7c4;
     font-size: 35px;
 }
 
@@ -20,12 +21,12 @@
 
 .project p {
     font-size: 40px;
-    color: #2f3035;
+    color: #9ea7c4;
     margin: 10px 200px 10px 200px;
 }
 
 .project svg {
     font-size: 60px;
-    color: #2f3035;
+    color: #9ea7c4;
     cursor: pointer;
 }
