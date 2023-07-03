@@ -8,8 +8,11 @@ import GitHub from '../assets/github.png';
 import Typescript from '../assets/typescript.png';
 import Mongo from '../assets/mongo.png';
 import MySQL from '../assets/mysql.png';
+import { HiArrowNarrowRight } from 'react-icons/hi';
+import { Link } from 'react-scroll';
 
 function Home() {
+
   return (
     <div name='home' className='w-full h-screen bg-[#2f3035]'>
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
@@ -23,6 +26,18 @@ function Home() {
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
           I specialize in building exceptional real-world digital applications. Currently, I am focused on building responsive full-stack web applications with React and Typescript.
         </p>
+
+        <div>
+          <Link to='skills' smooth={true} duration={500}>
+          <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-yellow-600 hover:border-yellow-600'>
+            View Skills
+            <span className='group-hover:rotate-90 duration-300'>
+              <HiArrowNarrowRight className='ml-3 ' />
+            </span>
+          </button>
+          </Link>
+        </div>
+
         </div>
       <div name='skills' className='w-full h-screen bg-[#2f3035] text-[#9ea7c4] font-bold'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>

@@ -9,24 +9,48 @@
 }
 
 .project h1 {
-    margin-top: 100px;
+    margin: 100px 0 30px 0;
     color: #9ea7c4;
     font-size: 35px;
 }
 
-.project img {
-    width: 700px;
-    border-radius: 10px;
-}
-
 .project p {
-    font-size: 40px;
+    font-size: 30px;
     color: #9ea7c4;
-    margin: 10px 200px 10px 200px;
+    margin: 50px 150px 50px 150px;
 }
 
-.project svg {
-    font-size: 60px;
+/* .project svg {
+    font-size: 80px;
     color: #9ea7c4;
     cursor: pointer;
+    padding-bottom: 50px;
+} */
+
+.content-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 600px;
+}
+
+.content-div:hover {
+    background-image: linear-gradient(
+        to right,
+        rgba(147, 181, 255, 0.8),
+        hsla(242, 36%, 69%, 0.8)   
+    )!important;
+}
+
+@media only screen and (max-width: 800px) {
+    .content-div {
+        width: 80%;
+        height: 300px;
+    }
+
+    .project p {
+        font-size: 25px;
+        margin: 30px 80px 30px 80px;
+    }
 }
