@@ -1,6 +1,7 @@
 import Proj1 from '../assets/Proj1.png'
 import Proj2 from '../assets/Proj2.png'
 import Proj3 from '../assets/Proj3.png'
+import Proj4 from '../assets/Proj4.png'
 
 export const ProjectList = [
     {
@@ -17,9 +18,9 @@ export const ProjectList = [
     },
     {
         name: "Ionic Task Creator",
-        image: "",
-        skills: "Ionic, React, Bootstrap, Node.js, Express",
-        githubURL: ""
+        image: Proj4,
+        skills: "Ionic, React, Bootstrap, Node.js, Express, MySQL, Sequelize",
+        githubURL: "https://github.com/micahbugbee/ionic-task-app"
     },
     {
         name: "Facebook Clone",

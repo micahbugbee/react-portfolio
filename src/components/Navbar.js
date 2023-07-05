@@ -12,6 +12,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 function Navbar() {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
+  const resumePath = process.env.PUBLIC_URL + '/resume/Resume2023.pdf'
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#2f3035] text-gray-300">
@@ -106,7 +107,7 @@ function Navbar() {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#e7813e]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href={resumePath} target="_blank" rel="noopener noreferrer"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
