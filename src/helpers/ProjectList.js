@@ -1,6 +1,6 @@
 import Proj1 from '../assets/Proj1.png'
 import Proj2 from '../assets/Proj2.png'
-import Proj5 from '../assets/Proj3.png'
+import Proj5 from '../assets/Proj5.png'
 import Proj4 from '../assets/Proj4.png'
 
 export const ProjectList = [
@@ -15,18 +15,21 @@ export const ProjectList = [
         name: "Weather App",
         image: Proj2,
         skills: "React.js, CSS, Open Weather API",
-        githubURL: "https://github.com/micahbugbee/react-weather-app"
+        githubURL: "https://github.com/micahbugbee/react-weather-app",
+        demoURL: "https://www.loom.com/share/389f71f38663456cb38ebfbb1a7b42e6?sid=eacee3a2-6266-452a-b9dc-caff56901bd6"
     },
     {
         name: "Ionic Task Creator",
         image: Proj4,
         skills: "Ionic, React, Bootstrap, Node.js, Express, MySQL, Sequelize",
-        githubURL: "https://github.com/micahbugbee/ionic-task-app"
+        githubURL: "https://github.com/micahbugbee/ionic-task-app",
+        demoURL: ""
     },
     {
         name: "Resume Builder",
         image: Proj1,
         skills: "React.js, Typescript, CSS, Express, Node.js, MongoDB, Mongoose, JWT, Bcrypt, OpenAI API",
-        githubURL: "https://github.com/micahbugbee/resume-builder"
+        githubURL: "https://github.com/micahbugbee/resume-builder",
+        demoURL: ""
     }
 ]
