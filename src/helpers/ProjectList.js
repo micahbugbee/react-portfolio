@@ -1,7 +1,7 @@
 import Proj1 from '../assets/Proj1.png'
 import Proj2 from '../assets/Proj2.png'
 import Proj5 from '../assets/Proj5.png'
-import Proj4 from '../assets/Proj4.png'
+import Proj6 from '../assets/Proj6.png'
 
 export const ProjectList = [
     {
@@ -19,11 +19,11 @@ export const ProjectList = [
         demoURL: "https://www.loom.com/share/389f71f38663456cb38ebfbb1a7b42e6?sid=eacee3a2-6266-452a-b9dc-caff56901bd6"
     },
     {
-        name: "Ionic Task Creator",
-        image: Proj4,
-        skills: "Ionic, React, Bootstrap, Node.js, Express, MySQL, Sequelize",
-        githubURL: "https://github.com/micahbugbee/ionic-task-app",
-        demoURL: ""
+        name: "Amazon Clone",
+        image: Proj6,
+        skills: "React, Nextjs, Next Auth, Stripe Checkout, Webhooks, Firestore, TailwindCSS",
+        githubURL: "https://github.com/micahbugbee/amazon-clone",
+        demoURL: "https://www.loom.com/share/c2ee965d70a343bda5cbe3ee45eda73b?sid=28396e43-a36f-426d-b53f-72ff2a51be96"
     },
     {
         name: "Resume Builder",
